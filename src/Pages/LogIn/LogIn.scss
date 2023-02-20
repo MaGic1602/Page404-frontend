@@ -1,0 +1,63 @@
+@import "../../Utils/variables.scss";
+
+form {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
+  width: 300px;
+  height: 320px;
+  border-radius: 20px;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  font-family: $font;
+
+  input {
+    
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid $white;
+    border-top: 1px solid $white;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .button-85 {
+    font-family: $font;
+    background-color:$white;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    border: 1px solid$white;
+    text-align: center;
+  }
+
+  .button-85:hover{
+  background-color: $white_after;
+  }
+
+  .button-85-mini {
+    border: transparent;
+    font-family: $font;
+    margin-top: 5px;
+    background: transparent;
+    text-align: center;
+  }
+  .button-85-mini:hover{
+    text-decoration: underline $white;
+  }
+}

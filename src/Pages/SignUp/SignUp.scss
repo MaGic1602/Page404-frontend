@@ -1,0 +1,14 @@
+@import "../../Utils/variables.scss";
+
+.text-signup {
+  font-family: $font;
+  font-size: 15px;
+  margin-top: 5px;
+  color: $black;
+  .link {
+    text-decoration: none;
+  }
+  .link:hover {
+    text-decoration: underline $white;
+  }
+}
